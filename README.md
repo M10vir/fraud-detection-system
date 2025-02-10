@@ -1,16 +1,17 @@
 # fraud-detection-system
-A machine learning-based fraud detection system built using Azure Machine Learning, DeepSeek-R1 and deployed on Azure Kubernetes Service (AKS).
+A machine learning-based fraud detection system built using Azure Machine Learning, DeepSeek-R1 integration and deployed on Azure Kubernetes Service (AKS).
 
 # Fraud Detection System using Azure Machine Learning
 
 ## Overview
-This project aims to detect fraudulent transactions in real-time using machine learning. The system is built using Azure Machine Learning and deployed on Azure Kubernetes Service (AKS).
+This project aims to detect fraudulent transactions in real-time using machine learning. The system is built using Azure Machine Learning, DeepSeek-R1 integration and deployed on Azure Kubernetes Service (AKS).This project integrates DeepSeek-R1 to provide context-aware insights for fraud detection. Insights are stored in Azure Cosmos DB for further analysis.
 
 ## Features
 - Real-time fraud detection using a deployed API.
 - Scalable deployment on Azure Kubernetes Service (AKS).
 - Integrated with Application Insights for monitoring and alerting.
 - Optimized models using HyperDrive for hyperparameter tuning.
+- DeepSeek-R1 integration
 
 ## Dataset
 The dataset used in this project is the [Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) from Kaggle.
@@ -20,6 +21,17 @@ The dataset used in this project is the [Credit Card Fraud Detection Dataset](ht
 2. Model Development: Trained Logistic Regression, XGBoost, and LightGBM models. Optimized hyperparameters using HyperDrive.
 3. Deployment: Deployed the best-performing model (LightGBM) to AKS. Enabled Application Insights for monitoring.
 4. Monitoring and Optimization: Tracked API performance, scaled the AKS cluster, and retrained the model.
+
+## DeepSeek-R1 Integration Code and Usage 
+
+## Code
+- `deepseek_insights.py`: Generates insights using DeepSeek-R1.
+- `cosmos_db.py`: Saves insights to Azure Cosmos DB.
+
+## Usage
+1. Install the DeepSeek-R1 library:
+  
+   pip install deepseek-r1
 
 ## Results
 - Logistic Regression: AUC = 0.96, F1-Score = 0.81.
