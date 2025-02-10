@@ -11,7 +11,7 @@ This project aims to detect fraudulent transactions in real-time using machine l
 - Scalable deployment on Azure Kubernetes Service (AKS).
 - Integrated with Application Insights for monitoring and alerting.
 - Optimized models using HyperDrive for hyperparameter tuning.
-- DeepSeek-R1 integration
+- DeepSeek-R1 integration using Codes.
 
 ## Dataset
 The dataset used in this project is the [Credit Card Fraud Detection Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) from Kaggle.
@@ -22,7 +22,7 @@ The dataset used in this project is the [Credit Card Fraud Detection Dataset](ht
 3. Deployment: Deployed the best-performing model (LightGBM) to AKS. Enabled Application Insights for monitoring.
 4. Monitoring and Optimization: Tracked API performance, scaled the AKS cluster, and retrained the model.
 
-## DeepSeek-R1 Integration Code and Usage 
+## DeepSeek-R1 Integration Code using for Insights  
 
 ## Code
 - `deepseek_insights.py`: Generates insights using DeepSeek-R1.
@@ -44,3 +44,24 @@ The dataset used in this project is the [Credit Card Fraud Detection Dataset](ht
    
    git clone https://github.com/M10vir/fraud-detection-system.git
    cd fraud-detection-system
+   
+## Project files Structure 
+
+fraud-detection-system/
+├── data/
+│   └── creditcard.csv          # Dataset
+├── notebooks/
+│   ├── data_preprocessing.ipynb
+│   ├── model_training.ipynb
+│   └── deployment.ipynb
+├── deepseek_integration/
+│   ├── deepseek_insights.py
+│   └── cosmos_db.py
+├── scripts/
+│   ├── score.py                # Scoring script
+│   └── deploy.py               # Deployment script
+├── models/
+│   └── lightgbm_model.pkl      # Trained model
+├── requirements.txt            # Dependencies
+├── README.md                   # Project documentation
+└── LICENSE                     # License file
