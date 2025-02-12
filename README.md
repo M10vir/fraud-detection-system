@@ -42,33 +42,37 @@ The dataset used in this project is the [Credit Card Fraud Detection Dataset](ht
 -  git clone https://github.com/M10vir/fraud-detection-system.git
 -  cd fraud-detection-system
 
-# Project files Structure
+   ```plaintext
+   # Project File Structure
 
-fraud-detection-system/
-├── data/
-│   └── creditcard.csv          # Dataset Download CSV file - https://www.kaggle.com/mlg-ulb/creditcardfraud
-├── notebooks/
-│   ├── data_preprocessing.ipynb
-│   ├── optimize_model.ipynb
-│   ├── deployment_model.ipynb
-│   ├── createaComputeTarget.ipynb
-│   ├── createComputeCluster.ipynb
-│   ├── hyperparameter_Tuning.ipynb
-│   ├── monitoring_scaling_improving_model.ipynb
-│   └── monitoringandOptimization.ipynb
-├── deepseek_integration/
-│   ├── deepseek_insights.py
-│   └── cosmos_db.py
-├── scripts/
-│   ├── score.py                            # Scoring script
-│   └── deploy.py                           # Deployment script
-├── models/
-│   ├── LogisticRegression_model.ipynb      # LogisticRegression model
-│   ├── LightGBM_model.ipynb                # LightGBM model
-│   └── XGBoost_model.ipynb                 # XGBoost model
-├── requirements.txt                        # Dependencies
-├── README.md                               # Project documentation
-└── LICENSE                                 # Open project
+   \```
+   fraud-detection-system/
+   ├── data/
+   │   └── creditcard.csv # Dataset Download CSV file - https://www.kaggle.com/mlg-ulb/creditcardfraud
+   ├── notebooks/
+   │   ├── data_preprocessing.ipynb
+   │   ├── optimize_model.ipynb
+   │   ├── deployment_model.ipynb
+   │   ├── createaComputeTarget.ipynb
+   │   ├── createComputeCluster.ipynb
+   │   ├── hyperparameter_Tuning.ipynb
+   │   ├── monitoring_scaling_improving_model.ipynb
+   │   └── monitoringandOptimization.ipynb
+   ├── deepseek_integration/
+   │   ├── deepseek_insights.py
+   │   └── cosmos_db.py
+   ├── scripts/
+   │   ├── score.py # Scoring script
+   │   └── deploy.py # Deployment script
+   ├── models/
+   │   ├── LogisticRegression_model.ipynb # LogisticRegression model
+   │   ├── LightGBM_model.ipynb # LightGBM model
+   │   └── XGBoost_model.ipynb # XGBoost model
+   ├── requirements.txt # Dependencies
+   ├── README.md # Project documentation
+   └── LICENSE # Open project
+   \```
+
 
 # Model Comparison
 
