@@ -4,7 +4,7 @@ A machine learning-based fraud detection system built using Azure Machine Learni
 # Fraud Detection System using Azure Machine Learning (AML)
 
 # Overview:
-This project aims to detect fraudulent transactions in real-time using machine learning (ML). The system is built using Azure Machine Learning, DeepSeek-R1 integration and deployed on Azure Kubernetes Service (AKS). This project integrates DeepSeek-R1 to provide context-aware insights for fraud detection. Insights are stored in Azure Cosmos DB for further analysis.
+This project aims to detect fraudulent transactions in real-time using machine learning (ML). The system is built using Azure Machine Learning (AML), DeepSeek-R1 integration and deployed on Azure Kubernetes Service (AKS). This project integrates DeepSeek-R1 to provide context-aware insights for fraud detection. Insights are stored in Azure Cosmos DB for further analysis.
 
 # Features:
 -  Real-time fraud detection using a deployed API.
