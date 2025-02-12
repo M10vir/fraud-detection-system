@@ -77,9 +77,9 @@ The dataset used in this project is the [Credit Card Fraud Detection Dataset](ht
 
 Here’s a comparison of the models based on performance:
 
-Model	              AUC	  F1-Score	Training Time	Use Case
-Logistic Regression	0.96	0.81	    Fast	Baseline for simple datasets
-XGBoost	            0.98	0.88	    Moderate	High-performance classification
-LightGBM	          0.98	0.88	    Fast	Large-scale classification
+Model	              AUC	    F1-Score	Training Time	Use Case
+Logistic Regression 0.96	  0.81	    Fast	Baseline for simple datasets
+XGBoost	            0.98	  0.88	    Moderate	High-performance classification
+LightGBM	          0.98	  0.88	    Fast	Large-scale classification
 
 #MachineLearning #Azure #FraudDetection #DataScience #AI #CloudComputing #DeepSeekR1
