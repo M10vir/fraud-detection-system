@@ -18,9 +18,12 @@ The dataset used in this project is the [Credit Card Fraud Detection Dataset](ht
 
 # Methodology:
 1. Data Preprocessing: Handled missing values, normalized features, and split the data into training and testing sets.
+![Screenshot of the project](images/Data_Preprocessing.png)
 2. Model Development: Trained Logistic Regression, XGBoost, and LightGBM models. Optimized hyperparameters using HyperDrive.
 3. Deployment: Deployed the best-performing model (LightGBM) to AKS. Enabled Application Insights for monitoring.
+![Screenshot of the project](images/Deployed_best-performing.png)
 4. Monitoring and Optimization: Tracked API performance, scaled the AKS cluster, and retrained the model.
+![Screenshot of the project](images/Monitoring_and_Optimization.png)
 
 # DeepSeek-R1 Integration Code using for Insights Codes:
 -  deepseek_insights.py      # Generates insights using DeepSeek-R1.
@@ -67,8 +70,12 @@ The dataset used in this project is the [Credit Card Fraud Detection Dataset](ht
    │   ├── LogisticRegression_model.ipynb # LogisticRegression model
    │   ├── LightGBM_model.ipynb # LightGBM model
    │   └── XGBoost_model.ipynb # XGBoost model
+   ├── images/
+   │   ├── Data_Preprocessing.png
+   │   ├── Deployed_best-performing.png
+   │   └── Monitoring_and_Optimization.png
    ├── requirements.txt # Dependencies
-   ├── README.md # Project documentation
+   ├── README.md # Project details
    └── LICENSE # Open project
    \```
 
