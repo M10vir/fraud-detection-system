@@ -42,8 +42,7 @@ The dataset used in this project is the [Credit Card Fraud Detection Dataset](ht
 -  git clone https://github.com/M10vir/fraud-detection-system.git
 -  cd fraud-detection-system
 
-   ```plaintext
-   # Project File Structure
+# Project File Structure
 
    \```
    fraud-detection-system/
