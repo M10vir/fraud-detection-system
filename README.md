@@ -43,7 +43,7 @@ The dataset used in this project is the [Credit Card Fraud Detection Dataset](ht
 -  cd fraud-detection-system
 
 # Project File Structure
-
+ ```plaintext
    \```
    fraud-detection-system/
    ├── data/
